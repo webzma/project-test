@@ -33,8 +33,8 @@ export default function Index() {
         </video>
         <Hero />
 
-        <section className="pb-20">
-          <h2 className="text-[#47413C] text-4xl uppercase pt-20 pb-16 text-center">
+        <section className="pb-20 px-4">
+          <h2 className="text-[#47413C] md:text-4xl text-3xl uppercase pt-20 pb-16 text-center">
             Featured Properties
           </h2>
 
