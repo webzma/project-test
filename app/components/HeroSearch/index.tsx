@@ -50,7 +50,7 @@ export default function HeroSearch() {
           </button>
         </div>
 
-        <div className="lg:flex items-center gap-x-4 px-4 justify-center w-[400px] hidden">
+        <div className="md:flex items-center gap-x-4 px-4 justify-center w-[400px] hidden">
           {/* Esto es un select */}
           <p className="text-md">Property Type</p>
           <svg
@@ -98,7 +98,7 @@ export default function HeroSearch() {
           />
         </div>
 
-        <button className="h-full uppercase  py-4 px-8  lg:py-6 lg:px-12 bg-[radial-gradient(circle,_#DFB66A,_#D4983B)] flex items-center gap-x-2">
+        <button className="font-medium h-full uppercase py-6 px-8 lg:py-6 lg:px-12 bg-[radial-gradient(circle,_#DFB66A,_#D4983B)] flex items-center gap-x-2">
           <span className="hidden lg:flex">Search</span>
           <img
             src="/arrow-search.svg"

@@ -1,6 +1,6 @@
 export default function Phrase() {
   return (
-    <div className="mx-auto w-[490px] flex justify-center flex-col items-center mt-20">
+    <div className="mx-auto max-w-[490px] w-[90%] flex justify-center flex-col items-start md:items-center mt-20">
       <div>
         <svg
           width="96"
@@ -144,7 +144,7 @@ export default function Phrase() {
         </svg>
       </div>
 
-      <p className="text-md text-center leading-6 mt-2">
+      <p className="text-md text-left md:text-center leading-6 mt-2">
         We absolutely believe in, appreciate and highly recommend the Nexstate
         Realty as they are professional and experts in the field.
       </p>
@@ -152,7 +152,7 @@ export default function Phrase() {
       <img
         src="./john-doe.svg"
         alt="John Doe Vector"
-        className="-mt-6 size-[160px]"
+        className="-mt-6 md:size-[160px] size-[120px]"
       />
     </div>
   );
