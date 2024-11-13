@@ -1,6 +1,6 @@
 export default function Phrase() {
   return (
-    <div className="mx-auto max-w-[490px] w-[90%] flex justify-center flex-col items-start md:items-center mt-12 lg:mt-20">
+    <div className="mx-auto max-w-[490px] w-[90%] flex justify-center flex-col items-start md:items-center mt-8 lg:mt-20">
       <div>
         <svg
           width="96"
