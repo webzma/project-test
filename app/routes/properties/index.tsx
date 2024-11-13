@@ -126,13 +126,13 @@ export default function Properties() {
 
   return (
     <div>
-      <header className="p-14 flex items-center gap-x-14">
+      <header className="p-14 flex gap-y-12 md:flex-row gap-x-14 flex-col items-start md:items-center">
         <div className="border border-[#47413C] [&>button]:px-5 [&>button]:py-4">
           <button
             className={`${
               operation === "sale"
-                ? "bg-transparent text-[#47413C]"
-                : "bg-[#47413C] text-white"
+                ? "bg-[#47413C] text-white"
+                : "bg-transparent text-[#47413C]"
             }`}
             onClick={() => setOperation("sale")}
           >
@@ -141,8 +141,8 @@ export default function Properties() {
           <button
             className={`${
               operation === "rent"
-                ? "bg-transparent text-[#47413C]"
-                : "bg-[#47413C] text-white"
+                ? " bg-[#47413C] text-white"
+                : "bg-transparent text-[#47413C]"
             }`}
             onClick={() => setOperation("rent")}
           >
@@ -158,7 +158,7 @@ export default function Properties() {
           />
           <input
             type="text"
-            className="border-0 outline-0 bg-transparent placeholder:text-[#22272F] placeholder:text-xl text-[#22272F] text-xl w-[600px]"
+            className="border-0 outline-0 bg-transparent placeholder:text-[#22272F] placeholder:text-xl text-[#22272F] text-xl  w-[100%] lg:w-[400px] "
             placeholder="Search for Location, City or Community"
             onChange={(e) => setSearchValue(e.target.value)}
             value={searchValue}
