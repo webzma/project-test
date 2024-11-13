@@ -76,8 +76,9 @@ export default function Index() {
                   AED <span>2,038,000</span>
                 </p>
 
-                <a href="/properties" className="uppercase">
+                <a href="/properties" className="uppercase flex gap-x-2">
                   See property
+                  <img src="/arrow-up-right.svg" alt="arrrow up" />
                 </a>
               </footer>
             </article>
@@ -119,8 +120,9 @@ export default function Index() {
                   AED <span>1,800,000</span>
                 </p>
 
-                <a href="/properties" className="uppercase">
+                <a href="/properties" className="uppercase flex gap-x-2">
                   See property
+                  <img src="/arrow-up-right.svg" alt="arrrow up" />
                 </a>
               </footer>
             </article>
@@ -162,8 +164,9 @@ export default function Index() {
                   AED <span>1,120,000</span>
                 </p>
 
-                <a href="/properties" className="uppercase">
+                <a href="/properties" className="uppercase flex gap-x-2">
                   See property
+                  <img src="/arrow-up-right.svg" alt="arrrow up" />
                 </a>
               </footer>
             </article>
@@ -205,8 +208,9 @@ export default function Index() {
                   AED <span>979,000</span>
                 </p>
 
-                <a href="/properties" className="uppercase">
+                <a href="/properties" className="uppercase flex gap-x-2">
                   See property
+                  <img src="/arrow-up-right.svg" alt="arrrow up" />
                 </a>
               </footer>
             </article>
@@ -248,8 +252,9 @@ export default function Index() {
                   AED <span>979,000</span>
                 </p>
 
-                <a href="/properties" className="uppercase">
+                <a href="/properties" className="uppercase flex gap-x-2">
                   See property
+                  <img src="/arrow-up-right.svg" alt="arrrow up" />
                 </a>
               </footer>
             </article>

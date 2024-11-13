@@ -208,8 +208,9 @@ export default function Properties() {
                     AED <span>{property.price}</span>
                   </p>
 
-                  <a href="/properties" className="uppercase">
+                  <a href="/properties" className="uppercase flex gap-x-2">
                     See property
+                    <img src="/arrow-up-right.svg" alt="arrrow up" />
                   </a>
                 </footer>
               </article>
